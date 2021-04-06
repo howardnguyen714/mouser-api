@@ -1,0 +1,88 @@
+{
+    "resorts": {
+        "disneyland-resort": 
+            {
+                "name": "Disneyland Resort",
+                "description": "description of Disneyland Resort",
+                "image": "insert image url here",
+                "tags": [
+                    {"tag-name": "I am a tag", "upvotes": 5}
+                ],
+                "pro-tips": [
+                    {"tip-name": "I am a pro tip", "upvotes": 5}
+                ],
+                "child-items": {
+                    "disneyland-park": 
+                        [
+                            {"fantasyland": 
+                                {
+                                    "name": "Fantasyland",
+                                    "description": "description of Fantasyland",
+                                    "image": "insert image url here",
+                                    "tags": [
+                                        {"tag-name": "I am a tag", "upvotes": 5}
+                                    ],
+                                    "pro-tips": [
+                                        {"tip-name": "I am a pro tip", "upvotes": 5}
+                                    ],
+                                    "child-items": {
+                                        "rides": [
+                                            {"mad-tea-party": 
+                                                {
+                                                    "name": "Mad Tea Party",
+                                                    "description": "description of Mad Tea Party",
+                                                    "image": "insert image url here",
+                                                    "tags": [
+                                                        {"tag-name": "I am a tag", "upvotes": 5}
+                                                    ],
+                                                    "pro-tips": [
+                                                        {"tip-name": "I am a pro tip", "upvotes": 5}
+                                                    ],
+                                                    "child-items": {}
+                                                }
+                                            },
+                                            {"mr-toads-wild-ride": 
+                                                {
+                                                    "name": "Mr. Toad's Wild Ride",
+                                                    "description": "description of Mr. Toad's Wild Ride",
+                                                    "image": "insert image url here",
+                                                    "tags": [
+                                                        {"tag-name": "I am a tag", "upvotes": 5}
+                                                    ],
+                                                    "pro-tips": [
+                                                        {"tip-name": "I am a pro tip", "upvotes": 5}
+                                                    ],
+                                                    "child-items": {}
+                                                }
+                                            }
+                                        ],
+                                        "dining": "incomplete",
+                                        "shops": "incomplete",
+                                        "shows": "incomplete"
+                                    }
+                                }
+                            },
+                            {"frontierland": "incomplete"},
+                            {"main-street-usa": "incomplete"},
+                            {"new-orleans-square": "incomplete"},
+                            {"tomorrowland": "incomplete"},
+                            {"adventureland": "incomplete"},
+                            {"critter-country": "incomplete"},
+                            {"galaxys-edge": "incomplete"},
+                            {"mickeys-toontown": "incomplete"}
+                        ],
+                    "disneyland-california-adventure-park": "incomplete",
+                    "paradise-pier-hotel": "incomplete",
+                    "disneyland-hotel": "incomplete",
+                    "grand-californian-hotel": "incomplete",
+                    "downtown-disney": "incomplete",
+                    "orange-county": "incomplete",
+                    "walt-disney-world-resort": "incomplete"
+                }
+            },
+        "tokyo-disney-resort": "incomplete",
+        "disneyland-paris": "incomplete",
+        "hong-kong-disneyland-resort": "incomplete",
+        "shanghai disney resort": "incomplete"
+    }
+}
