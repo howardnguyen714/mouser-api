@@ -6,10 +6,10 @@
                 "description": "description of Disneyland Resort",
                 "image": "insert image url here",
                 "tags": [
-                    {"tag-name": "I am a tag", "upvotes": 5}
+                    {"tag-name": "I am a tag", "upvotes": 0}
                 ],
                 "pro-tips": [
-                    {"tip-name": "I am a pro tip", "upvotes": 5}
+                    {"tip-name": "I am a pro tip", "upvotes": 0}
                 ],
                 "child-items": {
                     "disneyland-park": 
@@ -20,10 +20,10 @@
                                     "description": "description of Fantasyland",
                                     "image": "insert image url here",
                                     "tags": [
-                                        {"tag-name": "I am a tag", "upvotes": 5}
+                                        {"tag-name": "I am a tag", "upvotes": 0}
                                     ],
                                     "pro-tips": [
-                                        {"tip-name": "I am a pro tip", "upvotes": 5}
+                                        {"tip-name": "I am a pro tip", "upvotes": 0}
                                     ],
                                     "child-items": {
                                         "rides": [
@@ -33,10 +33,10 @@
                                                     "description": "description of Mad Tea Party",
                                                     "image": "insert image url here",
                                                     "tags": [
-                                                        {"tag-name": "I am a tag", "upvotes": 5}
+                                                        {"tag-name": "I am a tag", "upvotes": 0}
                                                     ],
                                                     "pro-tips": [
-                                                        {"tip-name": "I am a pro tip", "upvotes": 5}
+                                                        {"tip-name": "I am a pro tip", "upvotes": 0}
                                                     ],
                                                     "child-items": {}
                                                 }
@@ -47,10 +47,10 @@
                                                     "description": "description of Mr. Toad's Wild Ride",
                                                     "image": "insert image url here",
                                                     "tags": [
-                                                        {"tag-name": "I am a tag", "upvotes": 5}
+                                                        {"tag-name": "I am a tag", "upvotes": 0}
                                                     ],
                                                     "pro-tips": [
-                                                        {"tip-name": "I am a pro tip", "upvotes": 5}
+                                                        {"tip-name": "I am a pro tip", "upvotes": 0}
                                                     ],
                                                     "child-items": {}
                                                 }
@@ -76,10 +76,10 @@
                     "disneyland-hotel": "incomplete",
                     "grand-californian-hotel": "incomplete",
                     "downtown-disney": "incomplete",
-                    "orange-county": "incomplete",
-                    "walt-disney-world-resort": "incomplete"
+                    "orange-county": "incomplete"
                 }
             },
+        "walt-disney-world-resort": "incomplete",
         "tokyo-disney-resort": "incomplete",
         "disneyland-paris": "incomplete",
         "hong-kong-disneyland-resort": "incomplete",
