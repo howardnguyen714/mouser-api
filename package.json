@@ -1,7 +1,7 @@
 {
-  "name": "gamelib-api",
+  "name": "mouser-api",
   "version": "1.0.0",
-  "description": "Game API built with Node/Express and MongoDB",
+  "description": "Disney API built with Node/Express and MongoDB",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -19,6 +19,6 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://git.generalassemb.ly/SF-SEI/gamelib-api.git"
+    "url": "https://github.com/howardnguyen714/mouser-api.git"
   }
 }
