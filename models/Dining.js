@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const ShopSchema = new mongoose.Schema({
+const DiningSchema = new mongoose.Schema({
   name: String,
   description: String,
   imageUrl: String,
@@ -15,5 +15,5 @@ const ShopSchema = new mongoose.Schema({
   }]
 })
 
-const Shop = mongoose.model('Shop', ShopSchema)
-module.exports = Shop
+const Dining = mongoose.model('Dining', DiningSchema)
+module.exports = Dining

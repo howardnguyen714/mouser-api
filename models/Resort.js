@@ -14,21 +14,21 @@ const ResortSchema = new mongoose.Schema({
     upvotes: Number
   }],
   parks: [{
-    type: mongoose.Types.Schema.ObjectId,
+    type: mongoose.Schema.Types.ObjectId,
     ref: 'Park'
   }],
   hotels: [{
-    type: mongoose.Types.Schema.ObjectId,
+    type: mongoose.Schema.Types.ObjectId,
     ref: 'Hotel'
   }],
   shoppingDistricts: [{
-    type: mongoose.Types.Schema.ObjectId,
+    type: mongoose.Schema.Types.ObjectId,
     ref: 'ShoppingDistrict'
   }],
-  surroundingArea: {
-    type: mongoose.Types.Schema.ObjectId,
+  surroundingAreas: [{
+    type: mongoose.Schema.Types.ObjectId,
     ref: 'SurroundingArea'
-  }
+  }]
 })
 
 const Resort = mongoose.model('Resort', ResortSchema)

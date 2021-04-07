@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const connectionString = process.env.MONGODB_URI || "mongodb://localhost:27017/gamelib";
+const connectionString = process.env.MONGODB_URI || "mongodb://localhost:27017/mouser";
 const configOptions = {
     useNewUrlParser: true,
     useCreateIndex: true,
@@ -13,5 +13,5 @@ mongoose.connect(connectionString, configOptions)
     .catch(err => console.log(`MongoDB connection error: ${err}`));
 
 module.exports = {
-    Game: require('./game'),
+    Resort: require('./Resort'),
 };

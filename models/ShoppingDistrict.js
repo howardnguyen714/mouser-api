@@ -14,15 +14,15 @@ const HotelSchema = new mongoose.Schema({
     upvotes: Number
   }],
   dinings: [{
-    type: mongoose.Types.Schema.ObjectId,
+    type: mongoose.Schema.Types.ObjectId,
     ref: 'Dining'
   }],
   shops: [{
-    type: mongoose.Types.Schema.ObjectId,
+    type: mongoose.Schema.Types.ObjectId,
     ref: 'Shop'
   }],
   shows: [{
-    type: mongoose.Types.Schema.ObjectId,
+    type: mongoose.Schema.Types.ObjectId,
     ref: 'Show'
   }]
 })

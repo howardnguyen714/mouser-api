@@ -14,7 +14,7 @@ const ParkSchema = new mongoose.Schema({
     upvotes: Number
   }],
   lands: [{
-    type: mongoose.Types.Schema.ObjectId,
+    type: mongoose.Schema.Types.ObjectId,
     ref: 'Land'
   }]
 })
