@@ -6,11 +6,11 @@ const ResortSchema = new mongoose.Schema({
   description: String,
   imageUrl: String,
   tags: [{
-    tagName: String,
+    text: String,
     upvotes: Number
   }],
   tips: [{
-    tipName: String,
+    text: String,
     upvotes: Number
   }],
   parks: [{
