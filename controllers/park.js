@@ -28,6 +28,8 @@ const create = (req, res) => {
     db.Park.create(req.body, (err, savedPark) => {
         if (err) console.log('Error in parks#create:', err);
         
+        // upon creation, find associated resort and 
+
         // return an updated list of parks, do this:
         // res.redirect('/api/v1/parks')
         res.json({ park: savedPark })
@@ -50,6 +52,27 @@ const destroy = (req, res) => {
     });
 };
 
+const createTag = async (req, res) => {
+    const foundPark = await db.Park.findById(req.params.id)
+    foundPark.tags.push({text: req.body.tag, upvotes: 0})
+    foundPark.save()
+
+    res.json({park: foundPark})
+}
+
+const upvoteTag = async (req, res) => {
+    const foundPark = await db.Park.findById(req.params.id)
+    foundPark.tags[0].upvotes ++
+    foundPark.save()
+    res.json({park: foundPark})
+}
+
+// const foundResort = await db.Resort.findById(seededResorts[0]["_id"])
+//         for (park in seededParks) {
+//             foundResort.parks.push(seededParks[park]["_id"])
+//         }
+//         console.log(foundResort)
+//         foundResort.save()
 
 module.exports = {
     index,
@@ -57,4 +80,6 @@ module.exports = {
     create,
     update,
     destroy,
+    createTag,
+    upvoteTag
 };

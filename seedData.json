@@ -5,10 +5,10 @@
             "description": "description of Disneyland Resort",
             "image": "insert image url here",
             "tags": [
-                {"tag-name": "I am a tag", "upvotes": 0}
+                {"text": "I am a tag", "upvotes": 0}
             ],
-            "pro-tips": [
-                {"tip-name": "I am a pro tip", "upvotes": 0}
+            "tips": [
+                {"text": "I am a pro tip", "upvotes": 0}
             ],
             "parks": [
             ],
@@ -26,10 +26,10 @@
             "description": "description of Disneyland Park",
             "image": "insert image url here",
             "tags": [
-                {"tag-name": "I am a tag", "upvotes": 0}
+                {"text": "I am a tag", "upvotes": 0}
             ],
-            "pro-tips": [
-                {"tip-name": "I am a pro tip", "upvotes": 0}
+            "tips": [
+                {"text": "I am a pro tip", "upvotes": 0}
             ],
             "lands": []          
         },
@@ -38,10 +38,10 @@
             "description": "description of Disney California Adventure Park",
             "image": "insert image url here",
             "tags": [
-                {"tag-name": "I am a tag", "upvotes": 0}
+                {"text": "I am a tag", "upvotes": 0}
             ],
-            "pro-tips": [
-                {"tip-name": "I am a pro tip", "upvotes": 0}
+            "tips": [
+                {"text": "I am a pro tip", "upvotes": 0}
             ],
             "lands": []          
         }
@@ -52,10 +52,10 @@
             "description": "description of Fantasyland",
             "image": "insert image url here",
             "tags": [
-                {"tag-name": "I am a tag", "upvotes": 0}
+                {"text": "I am a tag", "upvotes": 0}
             ],
-            "pro-tips": [
-                {"tip-name": "I am a pro tip", "upvotes": 0}
+            "tips": [
+                {"text": "I am a pro tip", "upvotes": 0}
             ],
             "rides": [
                 {
@@ -63,10 +63,10 @@
                     "description": "description of Mad Tea Party",
                     "image": "insert image url here",
                     "tags": [
-                        {"tag-name": "I am a tag", "upvotes": 0}
+                        {"text": "I am a tag", "upvotes": 0}
                     ],
-                    "pro-tips": [
-                        {"tip-name": "I am a pro tip", "upvotes": 0}
+                    "tips": [
+                        {"text": "I am a pro tip", "upvotes": 0}
                     ]
                 },
                 {
@@ -74,10 +74,10 @@
                     "description": "description of Mr. Toad's Wild Ride",
                     "image": "insert image url here",
                     "tags": [
-                        {"tag-name": "I am a tag", "upvotes": 0}
+                        {"text": "I am a tag", "upvotes": 0}
                     ],
-                    "pro-tips": [
-                        {"tip-name": "I am a pro tip", "upvotes": 0}
+                    "tips": [
+                        {"text": "I am a pro tip", "upvotes": 0}
                     ]
                 }
             ],
@@ -87,10 +87,10 @@
                     "description": "description of Red Rose Taverne",
                     "image": "insert image url here",
                     "tags": [
-                        {"tag-name": "I am a tag", "upvotes": 0}
+                        {"text": "I am a tag", "upvotes": 0}
                     ],
-                    "pro-tips": [
-                        {"tip-name": "I am a pro tip", "upvotes": 0}
+                    "tips": [
+                        {"text": "I am a pro tip", "upvotes": 0}
                     ]
                 }
             ],
@@ -100,10 +100,10 @@
                     "description": "description of The Mad Hatter",
                     "image": "insert image url here",
                     "tags": [
-                        {"tag-name": "I am a tag", "upvotes": 0}
+                        {"text": "I am a tag", "upvotes": 0}
                     ],
-                    "pro-tips": [
-                        {"tip-name": "I am a pro tip", "upvotes": 0}
+                    "tips": [
+                        {"text": "I am a pro tip", "upvotes": 0}
                     ]
                 }
             ],
@@ -113,10 +113,10 @@
                     "description": "description of Mickey and the Magical Map",
                     "image": "insert image url here",
                     "tags": [
-                        {"tag-name": "I am a tag", "upvotes": 0}
+                        {"text": "I am a tag", "upvotes": 0}
                     ],
-                    "pro-tips": [
-                        {"tip-name": "I am a pro tip", "upvotes": 0}
+                    "tips": [
+                        {"text": "I am a pro tip", "upvotes": 0}
                     ]
                 }
             ]
