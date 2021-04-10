@@ -67,6 +67,21 @@ const upvoteTag = async (req, res) => {
     res.json({park: foundPark})
 }
 
+const createTip = async (req, res) => {
+    const foundPark = await db.Park.findById(req.params.id)
+    foundPark.tips.push({text: req.body.tip, upvotes: 0})
+    foundPark.save()
+
+    res.json({park: foundPark})
+}
+
+const upvoteTip = async (req, res) => {
+    const foundPark = await db.Park.findById(req.params.id)
+    foundPark.tips[0].upvotes ++
+    foundPark.save()
+    res.json({park: foundPark})
+}
+
 // const foundResort = await db.Resort.findById(seededResorts[0]["_id"])
 //         for (park in seededParks) {
 //             foundResort.parks.push(seededParks[park]["_id"])
@@ -81,5 +96,7 @@ module.exports = {
     update,
     destroy,
     createTag,
-    upvoteTag
+    upvoteTag,
+    createTip,
+    upvoteTip,
 };

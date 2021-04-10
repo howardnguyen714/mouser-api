@@ -3,7 +3,7 @@
         {
             "name": "Disneyland Resort",
             "description": "description of Disneyland Resort",
-            "image": "insert image url here",
+            "imageUrl": "insert image url here",
             "tags": [
                 {"text": "I am a tag", "upvotes": 0}
             ],
@@ -23,20 +23,24 @@
     "parks": [
         {
             "name": "Disneyland Park",
-            "description": "description of Disneyland Park",
-            "image": "insert image url here",
+            "description": "Disneyland Park, originally Disneyland, is the first of two theme parks built at the Disneyland Resort in Anaheim, California, opened on July 17, 1955. It is the only theme park designed and built to completion under the direct supervision of Walt Disney. It was originally the only attraction on the property; its official name was changed to Disneyland Park to distinguish it from the expanding complex in the 1990s. It was the first Disney theme park. Walt Disney came up with the concept of Disneyland after visiting various amusement parks with his daughters in the 1930s and 1940s. He initially envisioned building a tourist attraction adjacent to his studios in Burbank to entertain fans who wished to visit; however, he soon realized that the proposed site was too small. After hiring a consultant to help him determine an appropriate site for his project, Disney bought a 160-acre (65 ha) site near Anaheim in 1953. Construction began in 1954 and the park was unveiled during a special televised press event on the ABC Television Network on July 17, 1955. Since its opening, Disneyland has undergone expansions and major renovations, including the addition of New Orleans Square in 1966, Bear Country (now Critter Country) in 1972, Mickey's Toontown in 1993, and Star Wars: Galaxy's Edge in 2019.",
+            "imageUrl": "https://raw.githubusercontent.com/howardnguyen714/mouser/main/src/images/disneyland-park-castle.jpg",
             "tags": [
-                {"text": "I am a tag", "upvotes": 0}
+                {"text": "Best for young kids", "upvotes": 0},
+                {"text": "Crowded", "upvotes": 0},
+                {"text": "Classic", "upvotes": 0}
             ],
             "tips": [
-                {"text": "I am a pro tip", "upvotes": 0}
+                {"text": "If you're one of the first in the park in the morning, go to rides like Splash Mountain, Space Mountain, or Big Thunder Mountain Railroad! Their lines get really long later.", "upvotes": 0},
+                {"text": "Get the extra Magic Hour if you're coming from far away!", "upvotes": 0},
+                {"text": "Highly recommend Mickey's Halloween Party! I go every year :)", "upvotes": 0}
             ],
             "lands": []          
         },
         {
             "name": "Disney California Adventure Park",
             "description": "description of Disney California Adventure Park",
-            "image": "insert image url here",
+            "imageUrl": "insert image url here",
             "tags": [
                 {"text": "I am a tag", "upvotes": 0}
             ],
@@ -50,7 +54,7 @@
         {
             "name": "Fantasyland",
             "description": "description of Fantasyland",
-            "image": "insert image url here",
+            "imageUrl": "insert image url here",
             "tags": [
                 {"text": "I am a tag", "upvotes": 0}
             ],
@@ -61,7 +65,7 @@
                 {
                     "name": "Mad Tea Party",
                     "description": "description of Mad Tea Party",
-                    "image": "insert image url here",
+                    "imageUrl": "insert image url here",
                     "tags": [
                         {"text": "I am a tag", "upvotes": 0}
                     ],
@@ -72,7 +76,7 @@
                 {
                     "name": "Mr. Toad's Wild Ride",
                     "description": "description of Mr. Toad's Wild Ride",
-                    "image": "insert image url here",
+                    "imageUrl": "insert image url here",
                     "tags": [
                         {"text": "I am a tag", "upvotes": 0}
                     ],
@@ -85,7 +89,7 @@
                 {
                     "name": "Red Rose Taverne",
                     "description": "description of Red Rose Taverne",
-                    "image": "insert image url here",
+                    "imageUrl": "insert image url here",
                     "tags": [
                         {"text": "I am a tag", "upvotes": 0}
                     ],
@@ -98,7 +102,7 @@
                 {
                     "name": "The Mad Hatter",
                     "description": "description of The Mad Hatter",
-                    "image": "insert image url here",
+                    "imageUrl": "insert image url here",
                     "tags": [
                         {"text": "I am a tag", "upvotes": 0}
                     ],
@@ -111,7 +115,7 @@
                 {
                     "name": "Mickey and the Magical Map",
                     "description": "description of Mickey and the Magical Map",
-                    "image": "insert image url here",
+                    "imageUrl": "insert image url here",
                     "tags": [
                         {"text": "I am a tag", "upvotes": 0}
                     ],
