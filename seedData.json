@@ -2,13 +2,14 @@
     "resorts": [
         {
             "name": "Disneyland Resort",
-            "description": "description of Disneyland Resort",
-            "imageUrl": "insert image url here",
+            "description": "The Disneyland Resort, commonly known as Disneyland, is an entertainment resort in Anaheim, California. It is owned and operated by The Walt Disney Company through its Parks, Experiences and Products division and is home to two theme parks (Disneyland Park and Disney California Adventure), three hotels, and a shopping, dining, and entertainment district known as Downtown Disney. The resort was developed by Walt Disney in the 1950s. When it opened to guests on July 17, 1955, the property consisted of Disneyland, its 100-acre parking lot (which had 15,167 spaces),[1] and the Disneyland Hotel, owned and operated by Disney's business partner Jack Wrather. After the success with the multi-park, multi-hotel business model at Walt Disney World in Lake Buena Vista, Florida, Disney acquired large parcels of land adjacent to Disneyland to apply the same business model in Anaheim. ",
+            "imageUrl": "https://raw.githubusercontent.com/howardnguyen714/mouser/main/src/images/disneyland-resort-entrance.jpg",
             "tags": [
-                {"text": "I am a tag", "upvotes": 0}
+                {"text": "All ages", "upvotes": 0}
             ],
             "tips": [
-                {"text": "I am a pro tip", "upvotes": 0}
+                {"text": "Best theme park in SoCal!", "upvotes": 0},
+                {"text": "If your kids like the trams, try to park at the Mickey and Friends Parking Structure.", "upvotes": 0}
             ],
             "parks": [
             ],
@@ -39,13 +40,17 @@
         },
         {
             "name": "Disney California Adventure Park",
-            "description": "description of Disney California Adventure Park",
-            "imageUrl": "insert image url here",
+            "description": "Disney California Adventure Park, commonly referred to as Disney California Adventure, California Adventure, or DCA, is a theme park located in Anaheim, California. It is owned and operated by The Walt Disney Company through its Parks, Experiences and Products division. The 72-acre (29 ha) park is themed after the history and culture of California, which celebrates the fun and adventure of the state through the use of various Disney, Pixar and Marvel properties. The park opened on February 8, 2001 as Disney's California Adventure Park or Disney's California Adventure, and it is the second of two theme parks built at the Disneyland Resort complex, after Disneyland Park.",
+            "imageUrl": "https://raw.githubusercontent.com/howardnguyen714/mouser/main/src/images/disney-california-adventure-park-ferriswheel.jpg",
             "tags": [
-                {"text": "I am a tag", "upvotes": 0}
+                {"text": "Many thrill rides", "upvotes": 0},
+                {"text": "Spacious", "upvotes": 0},
+                {"text": "Unique", "upvotes": 0}
             ],
             "tips": [
-                {"text": "I am a pro tip", "upvotes": 0}
+                {"text": "If you're one of the first in the park in the morning, go to rides like Radiator Springs Racers, Guardians of the Galaxy: Mission Breakout, or Toy Story Midway Mania! Their lines get really long later.", "upvotes": 0},
+                {"text": "If you have a park hopper ticket, go to Disneyland in the morning and here at night! Foot traffic in Disneyland after dark is quite the nightmare.", "upvotes": 0},
+                {"text": "Highly recommend World of Color! I see it every time I go :)", "upvotes": 0}
             ],
             "lands": []          
         }

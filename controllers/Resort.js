@@ -50,6 +50,35 @@ const destroy = (req, res) => {
     });
 };
 
+const createTag = async (req, res) => {
+    const foundResort = await db.Resort.findById(req.params.id)
+    foundResort.tags.push({text: req.body.tag, upvotes: 0})
+    foundResort.save()
+
+    res.json({resort: foundResort})
+}
+
+const upvoteTag = async (req, res) => {
+    const foundResort = await db.Resort.findById(req.params.id)
+    foundResort.tags[0].upvotes ++
+    foundResort.save()
+    res.json({resort: foundResort})
+}
+
+const createTip = async (req, res) => {
+    const foundResort = await db.Resort.findById(req.params.id)
+    foundResort.tips.push({text: req.body.tip, upvotes: 0})
+    foundResort.save()
+
+    res.json({resort: foundResort})
+}
+
+const upvoteTip = async (req, res) => {
+    const foundResort = await db.Resort.findById(req.params.id)
+    foundResort.tips[0].upvotes ++
+    foundResort.save()
+    res.json({resort: foundResort})
+}
 
 module.exports = {
     index,
@@ -57,4 +86,8 @@ module.exports = {
     create,
     update,
     destroy,
+    createTag,
+    upvoteTag,
+    createTip,
+    upvoteTip,
 };
